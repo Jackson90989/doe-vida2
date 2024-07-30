@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doe + Vida</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.11.0/main.min.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Doe + Vida</h1>
+    </header>
+    
+    <main>
+        <section id="hero">
+            <h2>Por que doar sangue?</h2>
+            <img src="src/doação.jpg" alt="Doação de Sangue">
+            <p>A doação de sangue é um ato de solidariedade que pode salvar vidas. Participe e ajude quem precisa!</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Galeria de Locais de Doação</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-info="Local A: São Paulo SP ">
+                    <img src="src/doação2.jpg" alt="Fundação Pró Sangue">
+                </div>
+                <div class="gallery-item" data-info="Local B: São Paulo">
+                    <img src="src/doação3.jpg" alt="Mario Gatti">
+                </div>
+                <div class="gallery-item" data-info="Local C: São Paulo">
+                    <img src="src/doação4.jpg" alt="Unicamp">
+                </div>
+            </div>
+            <div id="info-popup" class="hidden"></div>
+        </section>
+
+        <section id="social-login">
+            <h2>Conecte-se</h2>
+            <div class="social-buttons">
+                <button class="facebook">Login com Facebook</button>
+                <button class="instagram">Login com Instagram</button>
+                <button class="twitter">Login com Twitter</button>
+            </div>
+        </section>
+
+        <section id="story">
+            <h2>A Importância de Doar Sangue</h2>
+            <div class="story-content">
+                <p>Era uma vez, em uma pequena cidade chamada Esperança, um jovem chamado Lucas. Lucas era conhecido por seu espírito generoso e sua vontade de ajudar os outros. Um dia, ele ouviu falar sobre a necessidade urgente de doadores de sangue na cidade vizinha. Sem hesitar, ele decidiu fazer algo a respeito.</p>
+
+                <p>Lucas se dirigiu ao centro de doação de sangue local, onde conheceu Marta, uma enfermeira que o recebeu com um sorriso caloroso. Ela explicou a importância da doação de sangue e como uma única doação poderia salvar até três vidas. Lucas ficou impressionado com a quantidade de pessoas que precisavam dessa ajuda, desde pacientes com doenças crônicas até vítimas de acidentes.</p>
+
+                <p>Após a doação, Lucas se sentiu realizado ao saber que havia contribuído para uma causa tão nobre. Ele descobriu que doar sangue não era apenas um ato físico, mas uma demonstração de amor e solidariedade para com os outros. A cada nova doação, ele se sentia mais conectado à sua comunidade, sabendo que estava fazendo a diferença na vida de pessoas que ele nunca conheceria pessoalmente.</p>
+
+                <p>Com o tempo, Lucas se tornou um defensor fervoroso da doação de sangue, incentivando amigos e familiares a se juntarem a ele. Ele organizou eventos para promover a conscientização e ajudou a criar campanhas para aumentar o número de doadores. A cidade de Esperança viu uma transformação positiva à medida que mais e mais pessoas se tornaram doadoras regulares, e a vida de muitos foi salva graças ao esforço coletivo.</p>
+
+                <p>Assim, a história de Lucas é um lembrete poderoso de que cada pessoa tem o potencial de fazer uma grande diferença. Doar sangue é um ato simples, mas seu impacto é profundo e duradouro. Ao doar sangue, você não está apenas salvando vidas; você está fazendo parte de uma corrente de bondade e solidariedade que pode transformar o mundo para melhor.</p>
+            </div>
+        </section>
+        
+        <section id="register">
+            <button onclick="location.href='register.html'">Cadastrar</button>
+        </section>
+    </main>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.11.0/main.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

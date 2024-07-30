@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background: #ff4d4d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#hero {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #e53935; /* Cor forte para destaque */
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#gallery, #social-login, #story {
+    background-color: #fff; /* Fundo branco para contraste */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+#gallery {
+    background-color: #1e88e5; /* Azul forte para a galeria */
+    color: #fff;
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    width: calc(33.333% - 20px);
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+#info-popup {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    z-index: 10;
+    white-space: nowrap;
+}
+
+#social-login {
+    background-color: #43a047; /* Verde forte para a seção de login social */
+    color: #fff;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.facebook {
+    background: #3b5998;
+}
+
+.instagram {
+    background: #e4405f;
+}
+
+.twitter {
+    background: #1da1f2;
+}
+
+.facebook:hover {
+    background: #2d4373;
+}
+
+.instagram:hover {
+    background: #d12a56;
+}
+
+.twitter:hover {
+    background: #0e86d3;
+}
+
+#story {
+    background-color: #f57c00; /* Laranja forte para a história */
+    color: #fff;
+}
+
+.story-content p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+#register {
+    text-align: center;
+}
+
+#register button {
+    padding: 10px 20px;
+    background: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+#register button:hover {
+    background: #ff4d94;
+}
